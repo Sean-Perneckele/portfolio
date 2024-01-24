@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 210px;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer div img {
+  height: 40px;
+  width: 120px;
+  margin-top: 60px;
+}
+footer div p {
+  color: white;
+  margin-top: 55px;
+  font-size: 24px;
+}
+
+@media (max-width: 767px) {
+  footer div p {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

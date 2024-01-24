@@ -1,0 +1,50 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 100px;
+}
+nav .nom {
+  color: blue;
+  font-size: 30px;
+}
+nav div {
+  width: 310px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+nav div .acceuil {
+  color: blue;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 15px;
+}
+nav div .propo {
+  color: #FF6060;
+  text-decoration: none;
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.acceuil.underline {
+  text-decoration: underline;
+}
+
+.propo.underline {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  nav img {
+    height: 45px;
+    width: 145px;
+  }
+  nav div .acceuil {
+    font-size: 12px;
+  }
+  nav div .propo {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */
