@@ -10,21 +10,20 @@ function Header() {
 
   return (
     <nav className='header'>
-      <div className='nom'> SEAN PERNECKELE </div>
+      <div className='nom'> Sean Perneckele </div>
       <div>
           
-        <Link className={isOnAccueilPage ? 'acceuil underline' : 'acceuil'} to='/'>
+        <Link className={isOnAccueilPage ? 'lien underline' : 'lien'} to='/#acceuil'>
           Accueil
         </Link>
-        <a href='' className='acceuil'>Accueil</a>
-        <a href='' className='acceuil'>Présentation</a>
-        <a href='' className='acceuil'>projet</a>
-        <a  href=''className='acceuil'>Compétance</a>
-        <a  href=''className='acceuil'> Formation </a>
-        <a  href=''className='acceuil'>Contact</a>
-        <Link className={isOnProposPage ? 'propo underline' : 'propo'} to='/propos'>
+        <a href='/#presentation' className='lien'>Présentation</a>
+        <a href='/#projet' className='lien'>projet</a>
+        <a  href='/#competance'className='lien'>Compétance</a>
+        <a  href='/#formation'className='lien'> Formation </a>
+        <a  href='/#contact'className='lien'>Contact</a>
+        {/* <Link className={isOnProposPage ? 'propo underline' : 'propo'} to='/propos'>
           A Propos
-        </Link>
+        </Link> */}
       </div>
     </nav>
   );

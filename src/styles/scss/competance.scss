@@ -1,0 +1,28 @@
+.competance{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+   
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-size: 30px;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+
+    }
+
+    .image{
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+    }
+}

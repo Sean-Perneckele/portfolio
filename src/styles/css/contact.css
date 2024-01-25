@@ -1,0 +1,56 @@
+.contact {
+  display: flex;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contact div {
+  width: 40%;
+  border: 5px solid black;
+  border-radius: 5%;
+  padding: 10px;
+}
+.contact div p {
+  font-size: 30px;
+}
+.contact div label {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.contact div form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact div .email {
+  width: 60%;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.contact div textarea {
+  height: 150px; /* Ajustez la hauteur selon vos besoins */
+  resize: vertical; /* Autorisez uniquement le redimensionnement vertical */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Ajoutez une bordure autour de la zone de texte */
+  border-radius: 5px; /* Ajoutez un arrondi aux coins */
+  font-size: 17px; /* Modifiez la taille de la police selon vos besoins */
+  width: 90%;
+}
+.contact div input[type=submit] {
+  padding: 10px;
+  background-color: #007bff; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 95%;
+}
+
+/*# sourceMappingURL=contact.css.map */
