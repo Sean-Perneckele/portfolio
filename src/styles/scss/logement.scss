@@ -1,6 +1,12 @@
 .logement {
     justify-content: center;
     margin: 0px 100px;
+
+    .tempo {
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
   
     .contente {
       display: flex ;
@@ -46,29 +52,25 @@
       }
   
       .evaluation {
+
+        display: flex;
+        
         .utilisateur {
           display: flex;
           align-items: center;
   
           .utilisateur--nom {
-            font-size: 18px;
-            color: #FF6060;
+            font-size: 25px;
+            color:black;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              color: blue;
+            }
           }
   
-          .utilisateur--image {
-            height: 64px;
-            width: 64px;
-            border-radius: 50px;
-            margin: 10px;
-          }
         }
   
-        .star {
-          .stars {
-            display: flex;
-            justify-content: space-between;
-          }
-        }
       }
     }
   
@@ -87,6 +89,8 @@
         justify-content: end;
       }
     }
+
+  }
   
     @media (max-width: 767px) {
       .contente {

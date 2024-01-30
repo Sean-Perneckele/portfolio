@@ -13,14 +13,14 @@ function Thumbnail() {
           <div className="thumbnail__image-container">
             <img src={image1} alt="logo ArgentBank" />
           </div>
-          <p>teste1</p>
+          
         </Link>
 
         <Link to={`/projet2`} className='thumbnail__article' key="projet2">
           <div className="thumbnail__image-container">
             <img src={image2} alt="Logo Kasa" />
           </div>
-          <p>teste1</p>
+         
         </Link>
      
     </div>

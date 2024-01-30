@@ -1,23 +1,24 @@
 footer {
   display: flex;
+  align-items: center;
   justify-content: center;
   background-color: black;
-  height: 210px;
+  font-size: 30px;
+  color: blue;
+  height: 100px;
 }
 footer div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-footer div img {
-  height: 40px;
-  width: 120px;
-  margin-top: 60px;
-}
-footer div p {
+footer div a {
+  font-size: 30px;
   color: white;
-  margin-top: 55px;
-  font-size: 24px;
+  transition: 0.3s all ease-in-out;
+}
+footer div a:hover {
+  color: blue;
 }
 
 @media (max-width: 767px) {

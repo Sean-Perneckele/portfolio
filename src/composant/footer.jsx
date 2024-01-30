@@ -1,13 +1,13 @@
 import '../styles/css/footer.css'
-import image2  from '../asset/logo2.png'
+import cv from '../asset/faireUnCV.pdf'
 
 
 function Footer() {
     return (
     <footer>
         <div>
-            <img src={image2} alt="Logo" />
-            <p>© 2020 Kasa. All rights reserved</p>
+            
+            <a href={cv} target="_blank" rel="noopener noreferrer"> Mon CV</a>
         </div>
     </footer>
     )

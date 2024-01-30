@@ -1,9 +1,12 @@
 import '../styles/css/logement.css'
 import { useParams, Navigate, Link } from 'react-router-dom';
+import { useEffect } from 'react';
 import données from '../kasa.json'
 import Slideshow from '../composant/Slideshow';
 import Star from '../composant/star';
 import Collapse from '../composant/Collapse'
+import Banner from '../composant/banner'
+import logo from '../asset/argentBankLogo.png'
 
 
 import image1 from '../asset/ArgentBank1.png'
@@ -20,9 +23,16 @@ function Projet1() {
         image4
     ]
 
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []); // Déplace la fenêtre vers le haut au chargement du composant
+  
   return (
-    <div className="logement">
-      <Slideshow images={images}  />
+    <div className="logement" >
+      
+     
+      <Banner logo={logo} />
+      <div className='tempo'>
         <div className='contente'>
             <div className='contente__info'>
               <p className='title' >Argent Bank</p>
@@ -37,7 +47,7 @@ function Projet1() {
             </div>
           </div>
 
-          <a href="mailto:sean.perneckele@gmail.com">Envoyer Email</a>
+       
 
         </div>
 
@@ -45,7 +55,11 @@ function Projet1() {
           <div className='information__description'> <Collapse titre="Description"  contenu=""/> </div>
           <div className='information__equipement'><Collapse titre="Technologie"  contenu="React  / Redux "/></div>          
         </div>    
+      </div>
+        <Slideshow images={images}  />
     </div>
+
+    
   );
 }
   

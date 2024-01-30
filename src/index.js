@@ -20,13 +20,12 @@ root.render(
           <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
-                {/* <Route path="/logement/:id" element={<Logement />} /> */}
                 <Route path="/propos" element={<Propos />} />
                 <Route path="*" element={<Error />} />
                 <Route path="/projet1" element={<Projet1 />}/>
                 <Route path="/projet2" element={<Projet2 />}/>
             </Routes>  
-          
+           <Footer />
         </Router>
     </React.StrictMode>,
 );

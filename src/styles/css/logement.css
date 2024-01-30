@@ -2,35 +2,41 @@
   justify-content: center;
   margin: 0px 100px;
 }
-.logement .contente {
+.logement .tempo {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logement .tempo .contente {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
 }
-.logement .contente__info {
+.logement .tempo .contente__info {
   display: flex;
   flex-direction: column;
 }
-.logement .contente__info .title {
+.logement .tempo .contente__info .title {
   font-size: 36px;
   color: blue;
   margin: 10px;
 }
-.logement .contente__info div {
+.logement .tempo .contente__info div {
   font-size: 20px;
   margin: 10px;
 }
-.logement .contente__info .location {
+.logement .tempo .contente__info .location {
   font-size: 18px;
   color: #FF6060;
   display: flex;
   margin: 0px;
   margin-bottom: 10px;
 }
-.logement .contente__info .tags {
+.logement .tempo .contente__info .tags {
   display: flex;
 }
-.logement .contente__info .tags .tags--content {
+.logement .tempo .contente__info .tags .tags--content {
   color: white;
   background-color: #FF6060;
   font-size: 14px;
@@ -38,33 +44,30 @@
   margin: 5px;
   padding: 2px 30px;
 }
-.logement .contente .evaluation .utilisateur {
+.logement .tempo .contente .evaluation {
+  display: flex;
+}
+.logement .tempo .contente .evaluation .utilisateur {
   display: flex;
   align-items: center;
 }
-.logement .contente .evaluation .utilisateur .utilisateur--nom {
-  font-size: 18px;
-  color: #FF6060;
+.logement .tempo .contente .evaluation .utilisateur .utilisateur--nom {
+  font-size: 25px;
+  color: black;
+  transition: all 0.3s ease-in-out;
 }
-.logement .contente .evaluation .utilisateur .utilisateur--image {
-  height: 64px;
-  width: 64px;
-  border-radius: 50px;
-  margin: 10px;
+.logement .tempo .contente .evaluation .utilisateur .utilisateur--nom:hover {
+  color: blue;
 }
-.logement .contente .evaluation .star .stars {
-  display: flex;
-  justify-content: space-between;
-}
-.logement .information {
+.logement .tempo .information {
   display: flex;
 }
-.logement .information__description {
+.logement .tempo .information__description {
   width: 70%;
   display: flex;
   justify-content: flex-start;
 }
-.logement .information__equipement {
+.logement .tempo .information__equipement {
   width: 70%;
   display: flex;
   justify-content: end;
