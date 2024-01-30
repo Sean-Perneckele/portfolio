@@ -8,7 +8,7 @@ import Contact from '../composant/contact'
 import Collapse from '../composant/Collapse'
 
 import Portait from '../asset/sean.jpg'
-
+import Presentation from '../composant/presentation';
 function Home() {
 
 
@@ -30,29 +30,9 @@ function Home() {
   return (
     <main>
     <div className="home">
-    <section className='accueil ' id='accueil'> 
-      <img src={Portait} alt="portait" />
+  
 
-      <div> Bonjour je suis Sean Perneckele développeur </div>
-
-    </section >
-
-
-    <section className='presentation ' id='presentation'>
-
-      <div className='present'>
-      <div>
-        Bonjour je suis Sean Perneckele. passioner par l'informatique depuis mon plus jeune age 
-        j'ai décider de me former pour en faire mon métier.
-
-        J'ai la reconnaissance RQTH et je suis entousiaste au fait de continuer a développer
-        mes compétance et de mintégré a une entreprise 
-      </div>
-      </div>
-      <div className='signature'>
-      <p>Sean Perneckele</p>
-      </div>
-    </section>
+   <Presentation Portait={Portait} />
     
       <section className='projet'>
         <p>Projets</p>

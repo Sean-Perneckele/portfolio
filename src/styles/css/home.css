@@ -26,37 +26,10 @@
   width: 30%;
   font-size: 20px;
 }
-.home .presentation {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 40px;
-  border-radius: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  justify-content: center;
-  height: 400px;
-}
-.home .presentation .present {
-  display: flex;
-  justify-content: center;
-}
-.home .presentation .present div {
-  width: 80%;
-  font-size: 18px;
-}
-.home .presentation .signature {
-  display: flex;
-  justify-content: end;
-}
-.home .presentation .signature p {
-  margin-right: 100px;
-  border-bottom: 1px solid blue;
-}
 .home .projet {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
-  background-color: #f6f6f6;
   border-radius: 0px 0px 20px 20px;
   border-top: 3px solid blue;
 }
@@ -67,7 +40,6 @@
 .home .formation {
   display: flex;
   margin-bottom: 40px;
-  background-color: #f6f6f6;
   border-radius: 20px;
   padding-top: 20px;
   justify-content: center;

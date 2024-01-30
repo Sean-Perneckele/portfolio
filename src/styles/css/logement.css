@@ -13,8 +13,12 @@
 }
 .logement .contente__info .title {
   font-size: 36px;
-  color: #FF6060;
-  margin: 0px;
+  color: blue;
+  margin: 10px;
+}
+.logement .contente__info div {
+  font-size: 20px;
+  margin: 10px;
 }
 .logement .contente__info .location {
   font-size: 18px;

@@ -4,7 +4,7 @@ nav {
   margin: 45px 100px;
 }
 nav .nom {
-  color: black;
+  color: blue;
   font-size: 30px;
 }
 nav div {
@@ -14,10 +14,14 @@ nav div {
   align-items: center;
 }
 nav div .lien {
-  color: blue;
+  color: black;
   text-decoration: none;
   font-size: 24px;
   margin-right: 30px;
+  transition: all 0.3s ease-in-out;
+}
+nav div .lien:hover {
+  color: blue;
 }
 
 .acceuil.underline {

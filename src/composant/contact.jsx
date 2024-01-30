@@ -12,7 +12,7 @@ function Contact() {
 <p>contact</p>
 
 
-<form method="post">
+<form action="mailto:sean.perneckele@gmail.com" method="post" enctype="text/plain">
   <label>Votre email</label>
   <input className="email" type="email" name="email"/>
   <label>Message</label>
@@ -26,3 +26,11 @@ function Contact() {
 }
 
 export default Contact;
+
+// contact 
+
+//   <form action="mailto:you@yourdmainhere.com" method="post" enctype="text/plain">
+//   FirstName: <input type="text" name="FirstName">
+//   Email: <input type="text" name="Email">
+//   <input type="submit" name="submit" value="Submit">
+// </form>

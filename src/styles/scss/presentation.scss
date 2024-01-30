@@ -1,0 +1,62 @@
+.presentation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    justify-content: center;
+    height: 400px;
+    background-color: #f6f6f6;
+    .un{
+        display: flex;
+        flex-direction: column;
+
+        p {
+            font-size: 30px;
+        }
+
+        .deux {
+            display: flex;
+            justify-content: space-evenly;
+
+            img {
+                width: 200px;
+                height: 300px;
+                border-radius: 20px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Ajout de l'ombre */
+            }
+
+            .trois {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                justify-content: center;
+
+                .present {
+
+                    display: flex;
+                    justify-content: center;
+                    div {
+                       
+                        font-size: 18px;
+                        width: 80%;
+                    }
+                }
+            
+                .signature {
+                    display: flex;
+                    justify-content: end;
+            
+                    p {
+                        margin-right: 100px;
+                        border-bottom: 1px solid blue;
+                    }
+                }
+
+            }
+        }
+    }
+
+  
+}

@@ -1,0 +1,52 @@
+.presentation {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  justify-content: center;
+  height: 400px;
+  background-color: #f6f6f6;
+}
+.presentation .un {
+  display: flex;
+  flex-direction: column;
+}
+.presentation .un p {
+  font-size: 30px;
+}
+.presentation .un .deux {
+  display: flex;
+  justify-content: space-evenly;
+}
+.presentation .un .deux img {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Ajout de l'ombre */
+}
+.presentation .un .deux .trois {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+.presentation .un .deux .trois .present {
+  display: flex;
+  justify-content: center;
+}
+.presentation .un .deux .trois .present div {
+  font-size: 18px;
+  width: 80%;
+}
+.presentation .un .deux .trois .signature {
+  display: flex;
+  justify-content: end;
+}
+.presentation .un .deux .trois .signature p {
+  margin-right: 100px;
+  border-bottom: 1px solid blue;
+}
+
+/*# sourceMappingURL=presentation.css.map */

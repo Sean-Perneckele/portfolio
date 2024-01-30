@@ -31,44 +31,14 @@
     
         }
     }
-    .presentation {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 40px;
-        border-radius: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        justify-content: center;
-        height: 400px;
-
-        .present {
-
-        display: flex;
-        justify-content: center;
-        div {
-            width: 80%;
-            font-size: 18px;
-            
-        }
-    }
-
-    .signature {
-        display: flex;
-        justify-content: end;
-
-        p {
-            margin-right: 100px;
-            border-bottom: 1px solid blue;
-        }
-    }
-    }
+    
 
     .projet {
         
         display: flex;
         flex-direction: column;
         margin-bottom: 40px;
-        background-color: #f6f6f6;
+      
         border-radius: 0px 0px 20px 20px;
         border-top: 3px solid blue;
         
@@ -81,7 +51,7 @@
     .formation{
         display: flex;
         margin-bottom: 40px;
-        background-color: #f6f6f6;
+       
         border-radius: 20px;
         padding-top: 20px;
         justify-content: center;

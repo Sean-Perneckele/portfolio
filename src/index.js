@@ -10,7 +10,8 @@ import Home from './pages/Home';
 import Logement from './pages/logement';
 import Header from './composant/header';
 import Footer from './composant/footer';
-
+import Projet1 from './pages/projet1'
+import Projet2 from './pages/projet2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,8 +23,8 @@ root.render(
                 {/* <Route path="/logement/:id" element={<Logement />} /> */}
                 <Route path="/propos" element={<Propos />} />
                 <Route path="*" element={<Error />} />
-                <Route path="/projet1" element={<Logement />}/>
-                <Route path="/projet1" element={<Logement />}/>
+                <Route path="/projet1" element={<Projet1 />}/>
+                <Route path="/projet2" element={<Projet2 />}/>
             </Routes>  
           
         </Router>
