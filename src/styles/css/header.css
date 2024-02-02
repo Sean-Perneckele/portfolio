@@ -8,7 +8,6 @@ nav .nom {
   font-size: 30px;
 }
 nav div {
-  width: 310px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -32,16 +31,40 @@ nav div .lien:hover {
   text-decoration: underline;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  nav {
+    margin: 45px 60px;
+  }
+  nav .nom {
+    color: blue;
+    font-size: 25px;
+  }
+  nav div .lien {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}
 @media (max-width: 767px) {
-  nav img {
-    height: 45px;
-    width: 145px;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 45px 100px;
   }
-  nav div .acceuil {
-    font-size: 12px;
+  nav .nom {
+    color: blue;
+    font-size: 25px;
   }
-  nav div .propo {
-    font-size: 12px;
+  nav div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav div .lien {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 0px;
   }
 }
 

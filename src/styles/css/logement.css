@@ -18,31 +18,13 @@
   flex-direction: column;
 }
 .logement .tempo .contente__info .title {
-  font-size: 36px;
+  font-size: 40px;
   color: blue;
   margin: 10px;
 }
 .logement .tempo .contente__info div {
-  font-size: 20px;
+  font-size: 25px;
   margin: 10px;
-}
-.logement .tempo .contente__info .location {
-  font-size: 18px;
-  color: #FF6060;
-  display: flex;
-  margin: 0px;
-  margin-bottom: 10px;
-}
-.logement .tempo .contente__info .tags {
-  display: flex;
-}
-.logement .tempo .contente__info .tags .tags--content {
-  color: white;
-  background-color: #FF6060;
-  font-size: 14px;
-  border-radius: 10px;
-  margin: 5px;
-  padding: 2px 30px;
 }
 .logement .tempo .contente .evaluation {
   display: flex;
@@ -55,6 +37,7 @@
   font-size: 25px;
   color: black;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 .logement .tempo .contente .evaluation .utilisateur .utilisateur--nom:hover {
   color: blue;
@@ -72,52 +55,72 @@
   display: flex;
   justify-content: end;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .logement .tempo {
+    height: 300px;
+  }
+  .logement .tempo .contente {
+    margin-bottom: 0px;
+  }
+  .logement .tempo .contente__info .title {
+    font-size: 30px;
+    margin: 10px;
+  }
+  .logement .tempo .contente__info div {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .logement .tempo .contente .evaluation {
+    display: flex;
+  }
+  .logement .tempo .contente .evaluation .utilisateur .utilisateur--nom {
+    font-size: 20px;
+  }
+  .logement .tempo .information {
+    display: flex;
+  }
+  .logement .tempo .information__description {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .logement .tempo .information__equipement {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+  }
+}
 @media (max-width: 767px) {
-  .logement .contente {
+  .logement .tempo {
+    height: 250px;
+  }
+  .logement .tempo .contente {
     display: flex;
     flex-direction: column;
   }
-  .logement .contente__info .title {
+  .logement .tempo .contente__info .title {
     font-size: 18px;
   }
-  .logement .contente__info .location {
-    font-size: 14px;
-  }
-  .logement .contente__info .tags .tags--content {
-    font-size: 10px;
-  }
-  .logement .contente .evaluation {
+  .logement .tempo .contente .evaluation {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
   }
-  .logement .contente .evaluation .utilisateur .utilisateur--nom {
+  .logement .tempo .contente .evaluation .utilisateur .utilisateur--nom {
     font-size: 14px;
+    margin: 10px;
   }
-  .logement .contente .evaluation .utilisateur .utilisateur--image {
-    height: 32px;
-    width: 32px;
-  }
-  .logement .contente .evaluation .star .stars {
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
-  }
-  .logement .contente .evaluation .star .stars img {
-    height: 13px;
-    width: 13px;
-  }
-  .logement .information {
+  .logement .tempo .information {
     display: flex;
     flex-direction: column;
   }
-  .logement .information__description {
+  .logement .tempo .information__description {
     font-size: 13px;
     width: 100%;
     justify-content: center;
   }
-  .logement .information__equipement {
+  .logement .tempo .information__equipement {
     font-size: 13px;
     width: 100%;
     justify-content: center;

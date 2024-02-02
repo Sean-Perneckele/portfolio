@@ -41,16 +41,40 @@
             transform: translateX(-50%);
             z-index: 2; /* Mettez au-dessus de l'image */
             color: blue;
-            font-size: 20px;
+            font-size: 30px;
         }
     }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+    .slideshow {
+        .slide-image {
+            
+            border-radius: 15px;
+
+            .numerotation {
+                font-size: 25px;
+            }
+        }
+
+        .arrow.vector1,
+        .arrow.vector2 {
+            width: 30px;
+            height: 40px;
+        }
+    }
+}
+
+
+
 @media (max-width: 767px) {
     .slideshow {
         .slide-image {
-            height: 330px;
             border-radius: 15px;
+
+            .numerotation {
+                font-size: 20px;
+            }
         }
 
         .arrow.vector1,

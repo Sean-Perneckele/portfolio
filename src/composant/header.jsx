@@ -42,7 +42,7 @@ function Header() {
   return (
     <nav className='header' ref={headerRef}>
       <div className='nom'> Sean Perneckele </div>
-      <div>
+      <div >
         {/* <Link className={isOnAccueilPage ? 'lien underline' : 'lien'} to='/'>
           Accueil
         </Link> */}

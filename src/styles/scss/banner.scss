@@ -1,5 +1,5 @@
 .banner {
-    height: 223px;
+    height: 225px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -17,19 +17,34 @@
    
   }
 
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .banner {
+      height: 200px; 
+      margin-bottom: 0px;
+     
+      
+      img {
+        width: 450px;
+        height: 125px;
+      }
+    }
+
+}
+
+
 
 @media (max-width: 767px) {
 
   .banner {
-   
-    > div {
-      
-      p {
-        font-size: 24px;
-        
+    height: 150px; 
+    margin-bottom: 0px;
+    min-width: 400px;
+    
+    img {
+      width: 450px;
+      height: 125px;
     }
   }
-}
 
 }
 
