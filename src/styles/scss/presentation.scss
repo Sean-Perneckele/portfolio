@@ -6,7 +6,6 @@
     padding-top: 20px;
     padding-bottom: 50px;
     justify-content: center;
-    height: 400px;
     background-color: #f6f6f6;
     .un{
         display: flex;
@@ -39,7 +38,7 @@
                     justify-content: center;
                     div {
                        
-                        font-size: 18px;
+                        font-size: 20px;
                         width: 80%;
                     }
                 }
@@ -51,6 +50,7 @@
                     p {
                         margin-right: 100px;
                         border-bottom: 1px solid blue;
+                        font-size: 25px;
                     }
                 }
 
@@ -58,5 +58,102 @@
         }
     }
 
-  
+
+   
 }
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .presentation {
+        margin-bottom: 40px;
+        border-radius: 20px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        .un{
+               
+            .deux {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+                img {
+                    width: 200px;
+                    height: 300px;
+                    margin-bottom: 20px;
+                }
+    
+                .trois {
+                    width: 70%;
+
+                    .present {
+                        div { 
+                            font-size: 18px;
+                            width: 80%;
+                        }
+                    }
+                    .signature {
+                        
+                        justify-content: center;
+                
+                        p {
+                            margin-right: 0px;
+                            font-size: 20px;
+                        }
+                    }
+    
+                }
+            }
+        }
+    
+    }
+}
+
+@media (max-width: 767px) {
+
+    .presentation {
+        margin-bottom: 40px;
+        border-radius: 20px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        .un{
+            
+    
+            .deux {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+                img {
+                    width: 200px;
+                    height: 300px;
+                    margin-bottom: 20px;
+                }
+    
+                .trois {
+                    width: 70%;
+
+                    .present {
+                        div { 
+                            font-size: 18px;
+                            width: 80%;
+                        }
+                    }
+                    .signature {
+                        
+                        justify-content: center;
+                
+                        p {
+                            margin-right: 0px;
+                            font-size: 20px;
+                        }
+                    }
+    
+                }
+            }
+        }
+    
+    }
+    
+ }
+
+

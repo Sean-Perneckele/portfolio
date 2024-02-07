@@ -23,4 +23,44 @@
   height: 100px;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .competance {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .competance p {
+    font-size: 25px;
+  }
+  .competance div {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .competance .image {
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .competance {
+    padding-top: 0px;
+  }
+  .competance p {
+    font-size: 30px;
+  }
+  .competance div {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .competance .image {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+  }
+}
+
 /*# sourceMappingURL=competance.css.map */

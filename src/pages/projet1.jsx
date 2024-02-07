@@ -25,7 +25,7 @@ function Projet1() {
 
     useEffect(() => {
       window.scrollTo(0, 0);
-    }, []); // Déplace la fenêtre vers le haut au chargement du composant
+    }, []); 
   
   return (
     <div className="logement" >
@@ -64,11 +64,3 @@ function Projet1() {
 }
   
   export default Projet1
-
-  // contact 
-
-//   <form action="mailto:you@yourdmainhere.com" method="post" enctype="text/plain">
-//   FirstName: <input type="text" name="FirstName">
-//   Email: <input type="text" name="Email">
-//   <input type="submit" name="submit" value="Submit">
-// </form>

@@ -14,18 +14,17 @@ function Home() {
 
 
   useEffect(() => {
-    // Utilisez la propriété hash du window.location pour vérifier s'il y a une ancre dans l'URL
+
     const hash = window.location.hash;
     if (hash) {
-      // Obtenez l'élément DOM correspondant à l'ancre
+      
       const targetElement = document.querySelector(hash);
       if (targetElement) {
-        // Faites défiler la page jusqu'à l'ancre
+      
         targetElement.scrollIntoView({ behavior: 'smooth' });
       }
     }
-  }, []); // Le tableau vide en second argument signifie que cela ne se produit qu'après le premier rendu
-
+  }, []); 
 
   return (
     <main>

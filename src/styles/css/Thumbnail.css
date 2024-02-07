@@ -60,6 +60,11 @@
   z-index: 2;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .thumbnail__article {
+    height: 300px;
+  }
+}
 @media (max-width: 767px) {
   .thumbnail__article {
     width: 300px;

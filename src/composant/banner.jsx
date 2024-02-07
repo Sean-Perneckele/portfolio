@@ -6,9 +6,6 @@ function Banner({logo}) {
     
         <div className='banner'>
             <img src={logo} alt="logo" />
-            {/* <div>
-                  <p>Chez vous, partout et ailleurs</p>
-            </div> */}
         </div>
     
     )
