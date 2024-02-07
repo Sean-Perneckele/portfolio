@@ -42,6 +42,9 @@
             z-index: 2; /* Mettez au-dessus de l'image */
             color: blue;
             font-size: 30px;
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 5px 10px; 
+            border-radius: 5px;
         }
     }
 }

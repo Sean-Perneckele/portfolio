@@ -1,26 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/css/Slideshow.css';
-import { useParams } from 'react-router-dom';
-import données from '../kasa.json';
 import vector1 from '../asset/Vector1.png';
 import vector2 from '../asset/Vector2.png';
 
 function Slideshow({ images }) {
-  const { id } = useParams();
+
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     // Masquer la numérotation si une seule image
     if (images.length === 1) {
       const numerotationElement = document.querySelector('.numerotation');
-      const arrow1 = document.querySelector('.vector1')
-      const arrow2 = document.querySelector('.vector2')
+      const arrow1 = document.querySelector('.vector1');
+      const arrow2 = document.querySelector('.vector2');
       if (numerotationElement) {
         numerotationElement.style.display = 'none';
         arrow1.style.display = 'none';
         arrow2.style.display = 'none';
       }
     }
+    
+    const slideshowInterval = setInterval(nextImage, 10000);
+    return () => clearInterval(slideshowInterval);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [images.length]);
 
   if (!images || images.length === 0) {

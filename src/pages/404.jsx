@@ -2,7 +2,6 @@ import '../styles/css/error.css'
 import error  from'../asset/404.png'
 import { Link } from 'react-router-dom';
 
-
 function Error() {
     return (
       <div className="error">

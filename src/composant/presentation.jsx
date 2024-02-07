@@ -1,6 +1,5 @@
 import '../styles/css/presentation.css'
 
-
 function Presentation({Portait}) {
     return (
     
@@ -12,11 +11,11 @@ function Presentation({Portait}) {
             <div className='trois'> 
               <div className='present'>
                 <div>
-                Bonjour je suis Sean Perneckele. passioner par l'informatique depuis mon plus jeune age 
-                j'ai décider de me former pour en faire mon métier.
-  
-                J'ai la reconnaissance RQTH et je suis entousiaste au fait de continuer a développer
-                mes compétance et de mintégré a une entreprise 
+                Bonjour, je m'appelle Sean Perneckele,
+                passionné par l'informatique depuis le plus jeune âge. 
+               
+                J'ai décidé de me former pour en faire mon métier. 
+                J'ai la reconnaissance RQTH et je suis enthousiaste au fait de continuer à développer mes compétences et de m'intégrer à une entreprise.
                 </div>
               </div>
                 <div className='signature'>

@@ -1,11 +1,8 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React, { useEffect, useRef } from 'react';
 import '../styles/css/header.css';
 
 function Header() {
-  const location = useLocation();
-  const isOnAccueilPage = location.pathname === '/';
-
   const smoothScroll = (target) => {
     const element = document.getElementById(target);
     if (element) {
@@ -43,20 +40,17 @@ function Header() {
     <nav className='header' ref={headerRef}>
       <div className='nom'> Sean Perneckele </div>
       <div >
-        {/* <Link className={isOnAccueilPage ? 'lien underline' : 'lien'} to='/'>
-          Accueil
-        </Link> */}
         <Link to='/' className='lien' onClick={() => handleClick('#presentation')}>
           Présentation
         </Link>
         <Link to='/#projet' className='lien' onClick={() => handleClick('#projet')}>
-          Projet
+          Projets
         </Link>
         <Link to='/#competance' className='lien' onClick={() => handleClick('#competance')}>
-          Compétence
+          Compétences
         </Link>
         <Link to='/#formation' className='lien' onClick={() => handleClick('#formation')}>
-          Formation
+          Formations
         </Link>
         <Link to='/#contact' className='lien' onClick={() => handleClick('#contact')}>
           Contact

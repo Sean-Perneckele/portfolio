@@ -11,7 +11,7 @@ function Competance() {
    return (
     <section className='competance' id='competance'>
       
-    <p>Compétance</p>
+    <p>Compétances</p>
 
       <div>
         <img src={html} alt="logo html" className='image' />

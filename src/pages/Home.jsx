@@ -4,14 +4,18 @@ import '../styles/css/home.css'
 import Thumbnail from '../composant/Thumbnail'
 import Competance from '../composant/competance';
 import Contact from '../composant/contact'
-
 import Collapse from '../composant/Collapse'
-
 import Portait from '../asset/sean.jpg'
 import Presentation from '../composant/presentation';
 function Home() {
 
-
+  const equipments = (
+    <>
+      <p className='equipments'>Intégrateur web : OpenClassRoom</p>
+      <p className='equipments'>BAC et BTS électrotechnique</p>
+      <p className='equipments'>Permi B</p>
+    </>
+  );
 
   useEffect(() => {
 
@@ -29,7 +33,6 @@ function Home() {
   return (
     <main>
     <div className="home">
-  
 
    <Presentation Portait={Portait} />
     
@@ -41,13 +44,10 @@ function Home() {
     <Competance />
 
     <section className='formation' id='formation'>
-
         <div className='un'>
-        <Collapse  titre="Formation" contenu="Intégrateur web : OpenClassRoom" key="formation"  />
+        <Collapse  titre="Formations" contenu={equipments} key="formation"  />
         </div>
-
     </section>
-
 
     <Contact />
 

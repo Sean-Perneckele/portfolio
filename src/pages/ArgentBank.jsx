@@ -1,20 +1,15 @@
-import '../styles/css/logement.css'
-import { useParams, Navigate, Link } from 'react-router-dom';
+import '../styles/css/projets.css'
 import { useEffect } from 'react';
-import données from '../kasa.json'
 import Slideshow from '../composant/Slideshow';
-import Star from '../composant/star';
 import Collapse from '../composant/Collapse'
 import Banner from '../composant/banner'
 import logo from '../asset/argentBankLogo.png'
-
-
 import image1 from '../asset/ArgentBank1.png'
 import image2 from '../asset/ArgentBank2.png'
 import image3 from '../asset/ArgentBank3.png'
 import image4 from '../asset/ArgentBank4.png'
 
-function Projet1() {
+function ArgentBank() {
 
     const images = [
         image1,
@@ -22,6 +17,15 @@ function Projet1() {
         image3,
         image4
     ]
+
+    
+    const technologies = (
+      <>
+        <p className='equipments'>React</p>
+        <p className='equipments'>Redux</p>
+      </>
+    );
+    
 
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -36,31 +40,24 @@ function Projet1() {
         <div className='contente'>
             <div className='contente__info'>
               <p className='title' >Argent Bank</p>
-              {/* <p className='location'>teste2</p> */}
-              <div> site d'agence Banquaire </div>
+              <div> site d'agence Bancaire </div>
             </div  >
 
           <div className='evaluation'>
             <div className='utilisateur'> 
               <a href="https://github.com/Sean-Perneckele/ArgentBank-website-main" className='utilisateur--nom'>  LIEN GitHub </a>  
-              {/* <img className='utilisateur--image' src="" alt="teste5" /> */}
             </div>
-          </div>
-
-       
-
+          </div>    
         </div>
 
-        <div className='information'>
-          <div className='information__description'> <Collapse titre="Description"  contenu=""/> </div>
-          <div className='information__equipement'><Collapse titre="Technologie"  contenu="React  / Redux "/></div>          
+        <div className='information'> 
+          <div className='information__description'> <Collapse titre="Description"  contenu="Argent Bank est une agence bancaire. Sur le site, j'ai transformé leur page statique en application React en créant des composants réutilisables et utilisé Redux pour mettre en place un Store centralisé."/> </div>
+          <div className='information__equipement'><Collapse titre="Technologies"  contenu={technologies}/></div>          
         </div>    
       </div>
         <Slideshow images={images}  />
-    </div>
-
-    
+    </div>    
   );
 }
   
-  export default Projet1
+  export default ArgentBank
