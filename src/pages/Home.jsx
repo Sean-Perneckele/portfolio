@@ -13,7 +13,7 @@ function Home() {
     <>
       <p className='equipments'>Intégrateur web : OpenClassRoom</p>
       <p className='equipments'>BAC et BTS électrotechnique</p>
-      <p className='equipments'>Permi B</p>
+      <p className='equipments'>Permis B</p>
     </>
   );
 
