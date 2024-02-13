@@ -18,8 +18,8 @@ root.render(
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="*" element={<Error />} />
-                <Route path="/projet1" element={<Kasa />}/>
-                <Route path="/projet2" element={<ArgentBank />}/>
+                <Route path="/projet2" element={<Kasa />}/>
+                <Route path="/projet1" element={<ArgentBank />}/>
             </Routes>  
            <Footer />
         </Router>
