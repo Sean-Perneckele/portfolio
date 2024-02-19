@@ -43,7 +43,7 @@ function Kasa() {
 
           <div className='evaluation'>
             <div className='utilisateur'> 
-              <a href="https://github.com/Sean-Perneckele/kasa-P8" className='utilisateur--nom'> Lien GitHub </a>  
+              <a href="https://github.com/Sean-Perneckele/kasa-P8" className='utilisateur--nom' target="_blank" rel="noopener noreferrer"> Lien GitHub </a>  
             </div>
           </div> 
         </div>

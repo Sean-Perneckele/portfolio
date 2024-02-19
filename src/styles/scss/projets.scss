@@ -3,10 +3,12 @@
     margin: 0px 100px;
 
     .tempo {
-      height: 400px;
+     
       display: flex;
       flex-direction: column;
       justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
   
     .contente {
       display: flex ;
@@ -57,6 +59,7 @@
   
     .information {
       display: flex;
+      margin: 15px 0px;
       
       &__description {
         width: 70%;
@@ -77,7 +80,7 @@
   @media (min-width: 768px) and (max-width: 1023px) {
     
     .tempo {
-      height: 300px;
+     
     
     .contente {
       margin-bottom: 0px;
@@ -129,10 +132,11 @@
       
       
     .tempo {
-      height: 250px;
+      
       .contente {
         display: flex;
         flex-direction: column;
+        
   
         &__info {
           .title {

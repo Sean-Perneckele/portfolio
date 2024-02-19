@@ -3,10 +3,11 @@
   margin: 0px 100px;
 }
 .logement .tempo {
-  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .logement .tempo .contente {
   display: flex;
@@ -44,6 +45,7 @@
 }
 .logement .tempo .information {
   display: flex;
+  margin: 15px 0px;
 }
 .logement .tempo .information__description {
   width: 70%;
@@ -56,9 +58,6 @@
   justify-content: end;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .logement .tempo {
-    height: 300px;
-  }
   .logement .tempo .contente {
     margin-bottom: 0px;
   }
@@ -91,9 +90,6 @@
   }
 }
 @media (max-width: 767px) {
-  .logement .tempo {
-    height: 250px;
-  }
   .logement .tempo .contente {
     display: flex;
     flex-direction: column;

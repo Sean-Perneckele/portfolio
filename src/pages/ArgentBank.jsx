@@ -45,7 +45,7 @@ function ArgentBank() {
 
           <div className='evaluation'>
             <div className='utilisateur'> 
-              <a href="https://github.com/Sean-Perneckele/ArgentBank-website-main" className='utilisateur--nom'>  LIEN GitHub </a>  
+              <a href="https://github.com/Sean-Perneckele/ArgentBank-website-main" className='utilisateur--nom' target="_blank" rel="noopener noreferrer">  LIEN GitHub </a>  
             </div>
           </div>    
         </div>

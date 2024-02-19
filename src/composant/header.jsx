@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import '../styles/css/header.css';
 
 function Header() {
@@ -15,22 +15,6 @@ function Header() {
 
   const headerRef = useRef(null);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100) {
-        headerRef.current.style.backgroundColor = 'black';
-      } else {
-        headerRef.current.style.backgroundColor = 'transparent';
-      }
-    };
-
-    document.addEventListener('scroll', handleScroll);
-
-    return () => {
-      document.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-  
 
   const handleClick = (target) => {
     smoothScroll(target.substring(1));
